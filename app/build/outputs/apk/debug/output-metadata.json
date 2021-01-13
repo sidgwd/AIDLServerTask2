@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.jio.server.aidl",
+  "applicationId": "com.jio.aidl_server.aidl",
   "variantName": "debug",
   "elements": [
     {

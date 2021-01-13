@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.jio.server.aidl">
+    package="com.jio.aidl_server.aidl">
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.jio.aidl_server.aidl.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <service
-            android:name="com.jio.server.aidl.service.ISdkCallerService"
+            android:name="com.jio.aidl_server.aidl.service.ISdkCallerService"
             android:enabled="true"
             android:exported="true">
             <intent-filter>

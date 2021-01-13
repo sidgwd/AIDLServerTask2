@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.jio.server.aidl"
+3    package="com.jio.aidl_server.aidl"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
@@ -25,43 +25,42 @@
 17-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:9:9-48
 18        android:supportsRtl="true"
 18-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:10:9-35
-19        android:testOnly="true"
-20        android:theme="@style/Theme.MyApplication" >
-20-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:11:9-51
-21        <activity android:name="com.jio.server.aidl.MainActivity" >
-21-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:12:9-18:20
-21-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:12:19-47
-22            <intent-filter>
-22-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:13:13-17:29
-23                <action android:name="android.intent.action.MAIN" />
-23-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:14:17-69
-23-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:14:25-66
-24
-25                <category android:name="android.intent.category.LAUNCHER" />
-25-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:16:17-77
-25-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:16:27-74
-26            </intent-filter>
-27        </activity>
-28
-29        <service
-29-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:19:9-27:19
-30            android:name="com.jio.server.aidl.service.ISdkCallerService"
-30-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:20:13-73
-31            android:enabled="true"
-31-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:21:13-35
-32            android:exported="true" >
-32-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:22:13-36
-33            <intent-filter>
-33-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:23:13-26:29
-34                <action android:name="com.jio.server.aidl.service.ISdkCallerService" />
-34-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:24:17-88
-34-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:24:25-85
-35
-36                <category android:name="android.intent.category.DEFAULT" />
-36-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:25:17-76
-36-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:25:27-73
-37            </intent-filter>
-38        </service>
-39    </application>
-40
-41</manifest>
+19        android:theme="@style/Theme.MyApplication" >
+19-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:11:9-51
+20        <activity android:name="com.jio.aidl_server.aidl.MainActivity" >
+20-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:12:9-18:20
+20-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:12:19-71
+21            <intent-filter>
+21-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:13:13-17:29
+22                <action android:name="android.intent.action.MAIN" />
+22-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:14:17-69
+22-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:14:25-66
+23
+24                <category android:name="android.intent.category.LAUNCHER" />
+24-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:16:17-77
+24-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:16:27-74
+25            </intent-filter>
+26        </activity>
+27
+28        <service
+28-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:19:9-27:19
+29            android:name="com.jio.aidl_server.aidl.service.ISdkCallerService"
+29-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:20:13-78
+30            android:enabled="true"
+30-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:21:13-35
+31            android:exported="true" >
+31-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:22:13-36
+32            <intent-filter>
+32-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:23:13-26:29
+33                <action android:name="com.jio.server.aidl.service.ISdkCallerService" />
+33-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:24:17-88
+33-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:24:25-85
+34
+35                <category android:name="android.intent.category.DEFAULT" />
+35-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:25:17-76
+35-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:25:27-73
+36            </intent-filter>
+37        </service>
+38    </application>
+39
+40</manifest>

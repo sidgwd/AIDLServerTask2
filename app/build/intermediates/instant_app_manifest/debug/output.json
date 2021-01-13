@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "applicationId": "com.jio.server.aidl",
+  "applicationId": "com.jio.aidl_server.aidl",
   "variantType": "BASE_APK",
   "elements": [
     {
@@ -19,7 +19,7 @@
       },
       "path": "AndroidManifest.xml",
       "properties": {
-        "packageId": "com.jio.server.aidl",
+        "packageId": "com.jio.aidl_server.aidl",
         "split": "",
         "minSdkVersion": "21"
       }

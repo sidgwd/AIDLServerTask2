@@ -1,4 +1,0 @@
-#Sun Dec 06 14:46:10 IST 2020
-base.0=D\:\\Jio Tesseract\\AIDL server\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "applicationId": "com.jio.server.aidl",
+  "applicationId": "com.jio.aidl_server.aidl",
   "variantType": "BASE_APK",
   "elements": []
 }
