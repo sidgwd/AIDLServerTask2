@@ -96,12 +96,12 @@ ADDED from D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:19:9-27
 		ADDED from D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:22:13-36
 	android:name
 		ADDED from D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:20:13-78
-intent-filter#action:name:com.jio.server.aidl.service.ISdkCallerService+category:name:android.intent.category.DEFAULT
+intent-filter#action:name:com.jio.aidl_server.aidl.service.ISdkCallerService+category:name:android.intent.category.DEFAULT
 ADDED from D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:23:13-26:29
-action#com.jio.server.aidl.service.ISdkCallerService
-ADDED from D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:24:17-88
+action#com.jio.aidl_server.aidl.service.ISdkCallerService
+ADDED from D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:24:17-93
 	android:name
-		ADDED from D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:24:25-85
+		ADDED from D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:24:25-90
 category#android.intent.category.DEFAULT
 ADDED from D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:25:17-76
 	android:name

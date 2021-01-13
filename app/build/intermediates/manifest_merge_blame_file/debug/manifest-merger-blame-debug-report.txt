@@ -53,9 +53,9 @@
 32-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:22:13-36
 33            <intent-filter>
 33-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:23:13-26:29
-34                <action android:name="com.jio.server.aidl.service.ISdkCallerService" />
-34-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:24:17-88
-34-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:24:25-85
+34                <action android:name="com.jio.aidl_server.aidl.service.ISdkCallerService" />
+34-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:24:17-93
+34-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:24:25-90
 35
 36                <category android:name="android.intent.category.DEFAULT" />
 36-->D:\Jio Tesseract\AIDL server\app\src\main\AndroidManifest.xml:25:17-76

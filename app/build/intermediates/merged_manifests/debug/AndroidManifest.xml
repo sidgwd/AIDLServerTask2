@@ -31,7 +31,7 @@
             android:enabled="true"
             android:exported="true" >
             <intent-filter>
-                <action android:name="com.jio.server.aidl.service.ISdkCallerService" />
+                <action android:name="com.jio.aidl_server.aidl.service.ISdkCallerService" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
